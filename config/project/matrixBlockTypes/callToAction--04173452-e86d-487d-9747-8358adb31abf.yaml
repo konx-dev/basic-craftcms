@@ -1,0 +1,137 @@
+field: 60ac7fa8-c37f-4d88-95cf-4c48388790b1 # Page Builder
+fieldLayouts:
+  44b63a4d-f43d-46c5-af19-05893320be86:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: fd26997a-fdca-4672-9e5d-5e21aa420bb6 # Heading
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 18ce4b50-3cad-4678-87d6-601e05aec111
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 38ffbb2d-7da5-46fd-9de8-41fa57d92b26 # Body
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2c1d19e0-5815-4131-9a97-b7a65a66a2b7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1c9c4960-a446-4ce1-9195-5b2c436428f0 # Buttons
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2d7e43dd-8813-4019-8124-2cd7edbdbd49
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 411720fe-db80-4a41-8063-f4b8485e8a28
+        userCondition: null
+fields:
+  1c9c4960-a446-4ce1-9195-5b2c436428f0: # Buttons
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: ctaButtons
+    instructions: null
+    name: Buttons
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 1136520536
+      columns:
+        __assoc__:
+          -
+            - e804d8bd-d5b1-471e-90b5-ebbc8061dc77 # Entries
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_5_ctabuttons}}'
+      fieldLayout: matrix
+      maxRows: 1
+      minRows: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: null
+      staticField: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+  38ffbb2d-7da5-46fd-9de8-41fa57d92b26: # Body
+    columnSuffix: evrbmfcb
+    contentColumnType: text
+    fieldGroup: null
+    handle: body
+    instructions: null
+    name: Body
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: Heading.json
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  fd26997a-fdca-4672-9e5d-5e21aa420bb6: # Heading
+    columnSuffix: jsgilaex
+    contentColumnType: text
+    fieldGroup: null
+    handle: ctaHeading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: Heading.json
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: callToAction
+name: 'Call to Action'
+sortOrder: 2

@@ -1,0 +1,275 @@
+changedFieldIndicator: 1608149554
+field: b0e313f2-3eb8-452f-8778-781a3fa3cba5 # Hero
+fieldLayouts:
+  efd82772-99a0-4639-b1c7-52136b0fc7e9:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ba0ed229-d458-4d08-820e-7773c655d896 # Heading
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 47cc6261-0180-4b39-bef8-bc79dcb36d6d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: fbf870b8-2cda-4d57-a74a-4fc11b0ec4e1 # Body
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: da3321e8-8a72-434d-ae0c-549414d48413
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2ca9fe85-d856-4ecf-974b-7a3b0bdf133f # Buttons
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3624668c-e234-402e-bda5-8341772f3c18
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ebf75945-a686-42c9-9c48-4fb86522ff2f # Background Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1816ac81-0b9e-4f48-8dbf-4ff5bebda9a2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6f0a49e2-f0e7-48da-bebf-19cdeb12e1d2 # Content Alignment
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 59fd3566-03e9-44c7-a1a4-1a1e18964ee1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8b9b7d45-08b4-4973-810b-18ef85e1dc1c # Height
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fcc960bd-b013-4b2e-ab05-0fe8b042167e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: acd8704a-02e5-4765-8558-f99629f72f3d
+        userCondition: null
+fields:
+  2ca9fe85-d856-4ecf-974b-7a3b0bdf133f: # Buttons
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: heroButtons
+    instructions: null
+    name: Buttons
+    searchable: false
+    settings:
+      contentTable: '{{%matrixcontent_herobuttons}}'
+      maxBlocks: 2
+      minBlocks: null
+      propagationKeyFormat: null
+      propagationMethod: all
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Matrix
+  6f0a49e2-f0e7-48da-bebf-19cdeb12e1d2: # Content Alignment
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: heroContentAlignment
+    instructions: null
+    name: 'Content Alignment'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Left
+            -
+              - value
+              - left
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Middle
+            -
+              - value
+              - middle
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  8b9b7d45-08b4-4973-810b-18ef85e1dc1c: # Height
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: heroHeight
+    instructions: null
+    name: Height
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Default
+            -
+              - value
+              - default
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Full
+            -
+              - value
+              - full
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  ba0ed229-d458-4d08-820e-7773c655d896: # Heading
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: heroHeading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: Heading.json
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  ebf75945-a686-42c9-9c48-4fb86522ff2f: # Background Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: heroImage
+    instructions: null
+    name: 'Background Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:ae7e798c-f7c8-4b4f-a496-6c85bb112906' # Images
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: true
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:ae7e798c-f7c8-4b4f-a496-6c85bb112906' # Images
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  fbf870b8-2cda-4d57-a74a-4fc11b0ec4e1: # Body
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: heroBody
+    instructions: null
+    name: Body
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: Heading.json
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field

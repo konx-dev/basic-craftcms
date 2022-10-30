@@ -1,0 +1,78 @@
+field: 9a6a61d0-27d9-4f0c-a1b3-00ec79ffa64a # Entries
+fieldLayouts:
+  3f143900-0733-4545-b034-ac0734198de3:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a6b2fd04-accd-48e6-bf87-255ce4414b5c # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f9fb1595-8410-4a0e-92fb-29143875fb28
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5cac645b-4e31-4aa6-ba1f-9fb729f7670a # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8a2b18cc-9930-4f26-947b-e924eecd10cd
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 0304bc0e-d62a-47ab-91df-3d0bb66936a3
+        userCondition: null
+fields:
+  5cac645b-4e31-4aa6-ba1f-9fb729f7670a: # Description
+    columnSuffix: qheftdvu
+    contentColumnType: text
+    fieldGroup: null
+    handle: statDescription
+    instructions: null
+    name: Description
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  a6b2fd04-accd-48e6-bf87-255ce4414b5c: # Title
+    columnSuffix: uygoecjr
+    contentColumnType: text
+    fieldGroup: null
+    handle: statTitle
+    instructions: null
+    name: Title
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: entry
+name: Entry
+sortOrder: 1

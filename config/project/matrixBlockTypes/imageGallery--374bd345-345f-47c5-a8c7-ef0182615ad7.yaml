@@ -1,0 +1,71 @@
+field: 60ac7fa8-c37f-4d88-95cf-4c48388790b1 # Page Builder
+fieldLayouts:
+  e983cfd1-6fdf-430c-800c-03a320c64bb5:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: e4478cd8-f7ef-49e1-84f9-a39f159df298 # Row
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 71e252be-1c76-4221-9f99-f9d484dc6d1a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 5c9a038a-8f63-4927-a6f1-8df60b48b1cb
+        userCondition: null
+fields:
+  e4478cd8-f7ef-49e1-84f9-a39f159df298: # Row
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: galleryRow
+    instructions: null
+    name: Row
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 1767770324
+      columns:
+        __assoc__:
+          -
+            - f97c7428-87a8-406b-b233-6eaed9b40530 # Images
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - bd89add9-9008-4e69-a403-d6abb0ee292a # Layout
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - df27dbbb-dc1e-4b87-accb-dc9ef881d11b # Mirror
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_8_galleryrow}}'
+      fieldLayout: matrix
+      maxRows: null
+      minRows: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: null
+      staticField: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+handle: imageGallery
+name: 'Image Gallery'
+sortOrder: 4

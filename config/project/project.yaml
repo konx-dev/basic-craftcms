@@ -1,0 +1,97 @@
+dateModified: 1667141989
+email:
+  fromEmail: konxhimself@gmail.com
+  fromName: 'CraftCMS (Basic)'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  assetsLocal:
+    hasUrls: false
+    name: 'Assets (Local)'
+    settings:
+      path: '@webroot/images'
+    type: craft\fs\Local
+    url: null
+meta:
+  __names__:
+    1bd66386-7f31-47d1-a653-2465b7d82eee: Link # Link
+    1c9c4960-a446-4ce1-9195-5b2c436428f0: Buttons # Buttons
+    1f66a3d7-1c36-48b3-bc10-b998c7c49eeb: 'Stats Block' # Stats Block
+    2ca9fe85-d856-4ecf-974b-7a3b0bdf133f: Buttons # Buttons
+    4b643f40-c095-4a63-b955-60531a458ec9: Entry # Entry
+    5cac645b-4e31-4aa6-ba1f-9fb729f7670a: Description # Description
+    5d2565e3-3b77-43db-bc40-08e1e0caa0fd: Text # Text
+    6e35f84b-5088-416c-aa85-6b1904c6b185: Text # Text
+    6f0a49e2-f0e7-48da-bebf-19cdeb12e1d2: 'Content Alignment' # Content Alignment
+    7ba0c79d-00f3-49cc-9b31-996f41f67719: Text # Text
+    7c8d9945-458c-4592-98b0-754cf0fa5013: Heading # Heading
+    7df66cd4-afc7-48dc-ae8b-1f7c4ae6dbdb: Heading # Heading
+    8af52c0f-b765-4e98-868d-585293bcc775: Link # Link
+    8b9b7d45-08b4-4973-810b-18ef85e1dc1c: Height # Height
+    8c7497c4-d88f-4731-9af0-7cccfc3509a2: Components # Components
+    9a6a61d0-27d9-4f0c-a1b3-00ec79ffa64a: Entries # Entries
+    16e1871b-c4eb-401e-849e-56978bf2ae03: Body # Body
+    32f42829-0214-4294-9ec7-67c3b9f1b8d4: Home # Home
+    32fa4784-be08-4288-b1db-5ee0a7aea70f: Home # Home
+    38ffbb2d-7da5-46fd-9de8-41fa57d92b26: Body # Body
+    39a28bd6-fd1c-4c0c-a04b-c48434fe7e39: Client # Client
+    60ac7fa8-c37f-4d88-95cf-4c48388790b1: 'Page Builder' # Page Builder
+    62db36ff-41f8-4cb8-8d45-0e6e30d66aba: Entry # Entry
+    90b674a8-3292-42d1-ad0f-7de902957ec5: Image # Image
+    99df94cf-ba57-4421-89c9-41fa1268b8d1: 'Background Colour' # Background Colour
+    374bd345-345f-47c5-a8c7-ef0182615ad7: 'Image Gallery' # Image Gallery
+    414eaf91-9037-446d-93aa-927fc603123f: 'Statistics Group' # Statistics Group
+    817c3bbf-063e-4d56-a9fd-bd58d2a94334: Link # Link
+    3437d8bd-188e-42be-b494-53f131545535: Buttons # Buttons
+    04173452-e86d-487d-9747-8358adb31abf: 'Call to Action' # Call to Action
+    a6b2fd04-accd-48e6-bf87-255ce4414b5c: Title # Title
+    a25a9242-def8-4049-bf2d-12f2d2ff73ba: 'Public Schema' # Public Schema
+    a766b5b2-846b-4ced-a868-f418c1c9dfc6: Mirror # Mirror
+    ae7e798c-f7c8-4b4f-a496-6c85bb112906: Images # Images
+    b0e313f2-3eb8-452f-8778-781a3fa3cba5: Hero # Hero
+    ba0ed229-d458-4d08-820e-7773c655d896: Heading # Heading
+    bd89add9-9008-4e69-a403-d6abb0ee292a: Layout # Layout
+    cfbf4fca-9728-4c6a-a0f2-c1e208f3fd8b: Body # Body
+    d030340b-59a0-4489-a43c-c1dbc7683ec4: Entry # Entry
+    df27dbbb-dc1e-4b87-accb-dc9ef881d11b: Mirror # Mirror
+    e0f274fd-b613-4920-86c2-99c9534547bb: Button # Button
+    e6f93d8e-5b47-4a03-83f7-9290e9953254: Entries # Entries
+    e90f6e65-a1e4-4d82-bd71-8042996a925d: Common # Common
+    e804d8bd-d5b1-471e-90b5-ebbc8061dc77: Entries # Entries
+    e4478cd8-f7ef-49e1-84f9-a39f159df298: Row # Row
+    eaa721cb-b16c-4090-b979-b67795f35e2e: 'Basic 01' # Basic 01
+    ebb58035-454f-4525-aa40-3128113b9b73: 'Content Block' # Content Block
+    ebf75945-a686-42c9-9c48-4fb86522ff2f: 'Background Image' # Background Image
+    f4db1d18-537a-4f87-bf0e-06e5a9a4571b: 'Basic 02' # Basic 02
+    f97c7428-87a8-406b-b233-6eaed9b40530: Images # Images
+    fbf870b8-2cda-4d57-a74a-4fc11b0ec4e1: Body # Body
+    fd26997a-fdca-4672-9e5d-5e21aa420bb6: Heading # Heading
+plugins:
+  inventory:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
+  typedlinkfield:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+system:
+  edition: pro
+  live: true
+  name: 'CraftCMS (Basic)'
+  retryDuration: null
+  schemaVersion: 4.0.0.9
+  timeZone: Europe/London
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

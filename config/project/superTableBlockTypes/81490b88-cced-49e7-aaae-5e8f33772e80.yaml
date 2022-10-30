@@ -1,0 +1,41 @@
+changedFieldIndicator: 615936589
+field: 414eaf91-9037-446d-93aa-927fc603123f # Statistics Group
+fieldLayouts:
+  482e5d37-d6a8-49de-a36f-bf721ead46ae:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 9a6a61d0-27d9-4f0c-a1b3-00ec79ffa64a # Entries
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 360ce9b1-6d9c-4f0a-b4e6-12b9edc30222
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fc93f232-0b07-4b05-87ae-bf3d2da865b5
+        userCondition: null
+fields:
+  9a6a61d0-27d9-4f0c-a1b3-00ec79ffa64a: # Entries
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: statsEntries
+    instructions: null
+    name: Entries
+    searchable: false
+    settings:
+      contentTable: '{{%matrixcontent_statsentries}}'
+      maxBlocks: null
+      minBlocks: null
+      propagationKeyFormat: null
+      propagationMethod: all
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Matrix

@@ -1,0 +1,137 @@
+field: 60ac7fa8-c37f-4d88-95cf-4c48388790b1 # Page Builder
+fieldLayouts:
+  8ce5815a-1cc7-4971-a16f-e713ba9053db:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 7c8d9945-458c-4592-98b0-754cf0fa5013 # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 74656baa-208f-424f-af67-6f2b833ccc3f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cfbf4fca-9728-4c6a-a0f2-c1e208f3fd8b # Body
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4c1b3101-f620-40db-b881-8dee28716fb7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 414eaf91-9037-446d-93aa-927fc603123f # Statistics Group
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 83defd5d-5623-420b-b19b-470fe927f24a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 5f239397-17d4-4353-82e4-2d9e0a01df90
+        userCondition: null
+fields:
+  7c8d9945-458c-4592-98b0-754cf0fa5013: # Heading
+    columnSuffix: uxyhveew
+    contentColumnType: text
+    fieldGroup: null
+    handle: statsHeading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: Heading.json
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  414eaf91-9037-446d-93aa-927fc603123f: # Statistics Group
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: statsGroup
+    instructions: null
+    name: 'Statistics Group'
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 328495414
+      columns:
+        __assoc__:
+          -
+            - 9a6a61d0-27d9-4f0c-a1b3-00ec79ffa64a # Entries
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_7_statsgroup}}'
+      fieldLayout: matrix
+      maxRows: 1
+      minRows: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: null
+      staticField: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+  cfbf4fca-9728-4c6a-a0f2-c1e208f3fd8b: # Body
+    columnSuffix: mmujwfaw
+    contentColumnType: text
+    fieldGroup: null
+    handle: statsBody
+    instructions: null
+    name: Body
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: Heading.json
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: statsBlock
+name: 'Stats Block'
+sortOrder: 3

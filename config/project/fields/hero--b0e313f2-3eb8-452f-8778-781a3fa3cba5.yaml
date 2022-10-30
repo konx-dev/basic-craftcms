@@ -1,0 +1,65 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 8c7497c4-d88f-4731-9af0-7cccfc3509a2 # Components
+handle: hero
+instructions: null
+name: Hero
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 2024999707
+  columns:
+    __assoc__:
+      -
+        - ba0ed229-d458-4d08-820e-7773c655d896 # Heading
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - fbf870b8-2cda-4d57-a74a-4fc11b0ec4e1 # Body
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 2ca9fe85-d856-4ecf-974b-7a3b0bdf133f # Buttons
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - ebf75945-a686-42c9-9c48-4fb86522ff2f # Background Image
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 6f0a49e2-f0e7-48da-bebf-19cdeb12e1d2 # Content Alignment
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 8b9b7d45-08b4-4973-810b-18ef85e1dc1c # Height
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+  contentTable: '{{%stc_hero}}'
+  fieldLayout: matrix
+  maxRows: null
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: none
+  selectionLabel: null
+  staticField: true
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField

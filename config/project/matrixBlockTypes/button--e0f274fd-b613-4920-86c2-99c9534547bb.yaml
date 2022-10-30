@@ -1,0 +1,121 @@
+field: 2ca9fe85-d856-4ecf-974b-7a3b0bdf133f # Buttons
+fieldLayouts:
+  ee06aa8f-151e-46f5-8e98-dee8b4e3b14f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 6e35f84b-5088-416c-aa85-6b1904c6b185 # Text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 113537f3-71ae-4f47-bfd1-2ba5a27e7912
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 817c3bbf-063e-4d56-a9fd-bd58d2a94334 # Link
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 63313534-192a-4a6f-ad26-c32907570784
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 381ffee3-af4d-4a56-91c9-35d484f3de82
+        userCondition: null
+fields:
+  6e35f84b-5088-416c-aa85-6b1904c6b185: # Text
+    columnSuffix: lxbhjppz
+    contentColumnType: text
+    fieldGroup: null
+    handle: buttonText
+    instructions: null
+    name: Text
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  817c3bbf-063e-4d56-a9fd-bd58d2a94334: # Link
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: buttonLink
+    instructions: null
+    name: Link
+    searchable: false
+    settings:
+      allowCustomText: false
+      allowTarget: false
+      autoNoReferrer: false
+      customTextMaxLength: 0
+      customTextRequired: false
+      defaultLinkName: entry
+      defaultText: ''
+      enableAllLinkTypes: false
+      enableAriaLabel: false
+      enableElementCache: false
+      enableTitle: false
+      typeSettings:
+        asset:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        category:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        custom:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        email:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        entry:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: true
+          sources: '*'
+        site:
+          enabled: false
+          sites: '*'
+        tel:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        url:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        user:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+    translationKeyFormat: null
+    translationMethod: none
+    type: lenz\linkfield\fields\LinkField
+handle: button
+name: Button
+sortOrder: 1

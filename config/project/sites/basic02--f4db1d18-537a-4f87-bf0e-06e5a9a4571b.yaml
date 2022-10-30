@@ -1,0 +1,9 @@
+baseUrl: null
+enabled: '1'
+handle: basic02
+hasUrls: false
+language: en-GB
+name: 'Basic 02'
+primary: false
+siteGroup: 39a28bd6-fd1c-4c0c-a04b-c48434fe7e39 # Client
+sortOrder: 3
