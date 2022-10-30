@@ -1,0 +1,29 @@
+name: Rsync Demo
+
+on:
+  pull_request:
+    branches: [ master ]
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Reason'
+
+jobs:
+  build:
+    name: Deployment
+    
+    runs-on: ubuntu-20.04
+    
+    steps:
+    - name: Checkout Repo files
+      uses: actions/checkout@v2
+
+    - name: Deploy to Server
+      uses: easingthemes/ssh-deploy@main
+      env:
+          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
+          ARGS: "-rltgoDzvO --delete"
+          SOURCE: "*"
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+          REMOTE_USER: ${{ secrets.REMOTE_USER }}
+          target: "${{ secrets.REMOTE_TARGET }}"
