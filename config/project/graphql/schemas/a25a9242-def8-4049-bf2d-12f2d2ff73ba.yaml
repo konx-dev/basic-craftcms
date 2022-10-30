@@ -1,2 +1,8 @@
 isPublic: true
 name: 'Public Schema'
+scope:
+  - 'sites.eaa721cb-b16c-4090-b979-b67795f35e2e:read' # Basic 01
+  - 'sites.f4db1d18-537a-4f87-bf0e-06e5a9a4571b:read' # Basic 02
+  - 'sections.32f42829-0214-4294-9ec7-67c3b9f1b8d4:read' # Home
+  - 'entrytypes.32fa4784-be08-4288-b1db-5ee0a7aea70f:read' # Home
+  - 'volumes.ae7e798c-f7c8-4b4f-a496-6c85bb112906:read' # Images

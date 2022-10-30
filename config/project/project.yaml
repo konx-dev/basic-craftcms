@@ -1,4 +1,4 @@
-dateModified: 1667141989
+dateModified: 1667154166
 email:
   fromEmail: konxhimself@gmail.com
   fromName: 'CraftCMS (Basic)'
@@ -40,11 +40,13 @@ meta:
     99df94cf-ba57-4421-89c9-41fa1268b8d1: 'Background Colour' # Background Colour
     374bd345-345f-47c5-a8c7-ef0182615ad7: 'Image Gallery' # Image Gallery
     414eaf91-9037-446d-93aa-927fc603123f: 'Statistics Group' # Statistics Group
+    487ebc5e-724f-4b7a-8981-5fd8dc8d524c: Contact # Contact
     817c3bbf-063e-4d56-a9fd-bd58d2a94334: Link # Link
     3437d8bd-188e-42be-b494-53f131545535: Buttons # Buttons
     04173452-e86d-487d-9747-8358adb31abf: 'Call to Action' # Call to Action
     a6b2fd04-accd-48e6-bf87-255ce4414b5c: Title # Title
     a25a9242-def8-4049-bf2d-12f2d2ff73ba: 'Public Schema' # Public Schema
+    a77f50f9-d430-4728-8635-58d63c511a0d: Contact # Contact
     a766b5b2-846b-4ced-a868-f418c1c9dfc6: Mirror # Mirror
     ae7e798c-f7c8-4b4f-a496-6c85bb112906: Images # Images
     b0e313f2-3eb8-452f-8778-781a3fa3cba5: Hero # Hero
