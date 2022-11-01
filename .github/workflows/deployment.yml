@@ -35,5 +35,6 @@ jobs:
   install:
       name: Run composer
       needs: build
+      runs-on: ubuntu-20.04
       steps:
       - run: composer install
