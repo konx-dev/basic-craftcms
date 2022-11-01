@@ -17,7 +17,8 @@ jobs:
     
     steps:
     - name: Checkout Repo files
-      uses: actions/checkout@v2
+    - run: ls -la
+    - uses: actions/checkout@master
 
     - run: sudo apt-get install rsync
 
@@ -28,6 +29,6 @@ jobs:
       with:
           flags: '-avc --delete'
           src: '*'
-          dest: '${{ secrets.REMOTE_USER }}@"${{ secrets.REMOTE_HOST }}":/test'
+          dest: '${{ secrets.REMOTE_USER }}@"${{ secrets.REMOTE_HOST }}":/home/craft/test'
     - name: Display status from deploy
       run: echo "${{ steps.deploy.outputs.status }}"
