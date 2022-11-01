@@ -16,9 +16,11 @@ jobs:
     timeout-minutes: 30
     
     steps:
+
+    - run: ls -la
+
     - name: Checkout Repo files
-      run: ls -la
-      uses: actions/checkout@master
+      uses: actions/checkout@v2
 
     - run: sudo apt-get install rsync
 
