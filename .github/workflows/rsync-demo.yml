@@ -31,6 +31,10 @@ jobs:
       with:
           flags: '-avc --delete'
           src: '*'
-          dest: '${{ secrets.REMOTE_USER }}@"${{ secrets.REMOTE_HOST }}":/home/craft/test'
+          dest: '${{ secrets.REMOTE_USER }}@"${{ secrets.REMOTE_HOST }}":/home/craft/basic-craftcms'
+          
+    - name: Run composer
+      run: composer install
+
     - name: Display status from deploy
       run: echo "${{ steps.deploy.outputs.status }}"
