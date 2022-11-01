@@ -17,8 +17,8 @@ jobs:
     
     steps:
     - name: Checkout Repo files
-    - run: ls -la
-    - uses: actions/checkout@master
+      run: ls -la
+      uses: actions/checkout@master
 
     - run: sudo apt-get install rsync
 
