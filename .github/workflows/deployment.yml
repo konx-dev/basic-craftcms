@@ -1,4 +1,4 @@
-name: Deployment
+name: Deployment to remote server
 
 on:
   pull_request:
@@ -13,17 +13,26 @@ jobs:
     name: Deployment
     
     runs-on: ubuntu-20.04
+    timeout-minutes: 30
     
     steps:
+
+    - run: ls -la
+
     - name: Checkout Repo files
       uses: actions/checkout@v2
-      
-    - name: Deploy files to server
-      uses: appleboy/scp-action@master
+
+    - run: sudo apt-get install rsync
+
+    - name: Deploy to Server
+      uses: Pendect/action-rsyncer@v1.1.0
+      env:
+          DEPLOY_KEY: ${{ secrets.SERVER_SSH_KEY }}
       with:
-        host: ${{ secrets.REMOTE_HOST }}
-        username: ${{ secrets.REMOTE_USER }}
-        key: ${{ secrets.SERVER_SSH_KEY }}
-        source: "*"
-        target: "${{ secrets.REMOTE_TARGET }}"
-        rm: false
+          flags: '-avc --delete'
+          src: '*'
+          dest: '${{ secrets.REMOTE_USER }}@"${{ secrets.REMOTE_HOST }}":/home/craft/basic-craftcms'
+  install:
+    - name: Run composer
+      needs: build
+      run: composer install
