@@ -13,17 +13,21 @@ jobs:
     name: Deployment
     
     runs-on: ubuntu-20.04
+    timeout-minutes: 30
     
     steps:
     - name: Checkout Repo files
       uses: actions/checkout@v2
 
+    - run: sudo apt-get install rsync
+
     - name: Deploy to Server
-      uses: easingthemes/ssh-deploy@main
+      uses: Pendect/action-rsyncer@v1.1.0
       env:
-          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
-          ARGS: "-rltgoDzvO --delete"
-          SOURCE: "*"
-          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-          REMOTE_USER: ${{ secrets.REMOTE_USER }}
-          target: "${{ secrets.REMOTE_TARGET }}"
+          DEPLOY_KEY: ${{ secrets.SERVER_SSH_KEY }}
+      with:
+          flags: '-avc --delete'
+          src: '*'
+          dest: '${{ secrets.REMOTE_USER }}@"${{ secrets.REMOTE_HOST }}":/test'
+    - name: Display status from deploy
+      run: echo "${{ steps.deploy.outputs.status }}"
