@@ -33,6 +33,7 @@ jobs:
           src: '*'
           dest: '${{ secrets.REMOTE_USER }}@"${{ secrets.REMOTE_HOST }}":/home/craft/basic-craftcms'
   install:
-    - name: Run composer
+      name: Run composer
       needs: build
-      run: composer install
+      steps:
+      - run: composer install
