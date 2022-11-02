@@ -32,9 +32,9 @@ jobs:
           flags: '-avc --delete'
           src: '*'
           dest: '${{ secrets.REMOTE_USER }}@"${{ secrets.REMOTE_HOST }}":/home/craft/basic-craftcms'
-  install:
-      name: Run composer
-      needs: build
-      runs-on: ubuntu-20.04
-      steps:
-      - run: composer install
+
+    - name: Run Composer
+      run: composer install
+
+    - name: Set permissions
+      run: sudo chmod -R 774 /home/craft/basic-craftcms/
