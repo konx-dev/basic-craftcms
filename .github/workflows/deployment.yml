@@ -32,9 +32,18 @@ jobs:
           flags: '-avc --delete'
           src: '*'
           dest: '${{ secrets.REMOTE_USER }}@"${{ secrets.REMOTE_HOST }}":/home/craft/basic-craftcms'
-
-    - name: Run Composer
-      run: composer install
-
-    - name: Set permissions
-      run: sudo chmod -R 774 /basic-craftcms/
+  install:
+    name: Composer Install & Set Permissions
+    needs: build
+    runs-on: ubuntu-20.04
+    steps:
+    - name: executing remote ssh commands using ssh key
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.REMOTE_HOST }}
+        username: ${{ secrets.REMOTE_USER }}
+        key: ${{ secrets.SERVER_SSH_KEY }}
+        script: |
+          cd /home/craft/basic-craftcms
+          ls -al
+          
