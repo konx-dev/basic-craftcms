@@ -37,4 +37,4 @@ jobs:
       run: composer install
 
     - name: Set permissions
-      run: sudo chmod -R 774 /home/craft/basic-craftcms/
+      run: sudo chmod -R 774 /basic-craftcms/
