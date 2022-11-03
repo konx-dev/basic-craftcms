@@ -1,0 +1,29 @@
+defaultPlacement: end
+enableVersioning: true
+handle: demo
+name: Demo
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  eaa721cb-b16c-4090-b979-b67795f35e2e: # Basic 01
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: demo
+  f4db1d18-537a-4f87-bf0e-06e5a9a4571b: # Basic 02
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: demo
+type: single

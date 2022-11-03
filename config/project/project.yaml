@@ -1,4 +1,4 @@
-dateModified: 1667154166
+dateModified: 1667435291
 email:
   fromEmail: konxhimself@gmail.com
   fromName: 'CraftCMS (Basic)'
@@ -43,6 +43,7 @@ meta:
     487ebc5e-724f-4b7a-8981-5fd8dc8d524c: Contact # Contact
     817c3bbf-063e-4d56-a9fd-bd58d2a94334: Link # Link
     3437d8bd-188e-42be-b494-53f131545535: Buttons # Buttons
+    2847712c-6c72-4c74-8f64-e4f9c4966b65: Demo # Demo
     04173452-e86d-487d-9747-8358adb31abf: 'Call to Action' # Call to Action
     a6b2fd04-accd-48e6-bf87-255ce4414b5c: Title # Title
     a25a9242-def8-4049-bf2d-12f2d2ff73ba: 'Public Schema' # Public Schema
@@ -60,6 +61,7 @@ meta:
     e90f6e65-a1e4-4d82-bd71-8042996a925d: Common # Common
     e804d8bd-d5b1-471e-90b5-ebbc8061dc77: Entries # Entries
     e4478cd8-f7ef-49e1-84f9-a39f159df298: Row # Row
+    e2589752-a920-4b59-8c93-38968b7c9c7e: Demo # Demo
     eaa721cb-b16c-4090-b979-b67795f35e2e: 'Basic 01' # Basic 01
     ebb58035-454f-4525-aa40-3128113b9b73: 'Content Block' # Content Block
     ebf75945-a686-42c9-9c48-4fb86522ff2f: 'Background Image' # Background Image
