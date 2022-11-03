@@ -31,16 +31,16 @@ jobs:
       with:
           flags: '-avc --delete'
           src: '*'
-          dest: '${{ secrets.REMOTE_USER }}@"${{ secrets.REMOTE_HOST }}":/home/craft/basic-craftcms'
+          dest: '${{ secrets.REMOTE_USER }}@"${{ secrets.REMOTE_HOST }}":${{ secrets.REMOTE_TARGET }}'
     - name: Wait
-      run: sleep 10
+      run: sleep 5
 
     - name: Composer Install
       run: composer install
 
     - name: Wait
-      run: sleep 10
-      
+      run: sleep 5
+
     - name: Set Permissions
-      run: sudo chmod -R 774 /home/craft/basic-craftcms/
+      run: sudo chmod -R 774 ${{ secrets.REMOTE_TARGET }}
           
