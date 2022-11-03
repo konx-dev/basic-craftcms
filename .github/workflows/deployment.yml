@@ -45,5 +45,6 @@ jobs:
         key: ${{ secrets.SERVER_SSH_KEY }}
         script: |
           cd /home/craft/basic-craftcms
-          ls -al
+          composer install
+          sudo chmod -R 774 ${{ secrets.REMOTE_TARGET }}
           
