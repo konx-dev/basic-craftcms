@@ -29,7 +29,7 @@ jobs:
       env:
           DEPLOY_KEY: ${{ secrets.SERVER_SSH_KEY }}
       with:
-          flags: '-avc --delete'
+          flags: '-avc'
           src: '*'
           dest: '${{ secrets.REMOTE_USER }}@"${{ secrets.REMOTE_HOST }}":${{ secrets.REMOTE_TARGET }}'
   install:
