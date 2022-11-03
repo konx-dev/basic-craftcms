@@ -42,5 +42,5 @@ jobs:
       run: sleep 5
 
     - name: Set Permissions
-      run: sudo chmod -R 774 ${{ secrets.REMOTE_TARGET }}
+      run: ls -al
           
