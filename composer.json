@@ -5,7 +5,8 @@
     "doublesecretagency/craft-inventory": "^2.2",
     "sebastianlenz/linkfield": "^2.1",
     "verbb/super-table": "^3.0",
-    "vlucas/phpdotenv": "^5.4.0"
+    "vlucas/phpdotenv": "^5.4.0",
+    "yiisoft/yii2-redis": "~2.0.0"
   },
   "require-dev": {
     "yiisoft/yii2-shell": "^2.0.3"
